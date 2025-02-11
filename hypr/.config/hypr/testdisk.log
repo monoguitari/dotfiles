@@ -1,0 +1,55 @@
+
+
+Mon Feb 10 20:28:06 2025
+Command line: TestDisk
+
+TestDisk 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.12.10-arch1-1 (#1 SMP PREEMPT_DYNAMIC Sat, 18 Jan 2025 02:26:57 +0000) x86_64
+Compiler: GCC 14.2
+ext2fs lib: 1.47.2, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.5
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'en_US.UTF-8'.
+
+
+Mon Feb 10 20:28:06 2025
+Command line: TestDisk /debug
+
+TestDisk 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.12.10-arch1-1 (#1 SMP PREEMPT_DYNAMIC Sat, 18 Jan 2025 02:26:57 +0000) x86_64
+Compiler: GCC 14.2
+ext2fs lib: 1.47.2, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.5
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/nvme0n1 - 512 GB / 476 GiB - CHS 488386 64 32, sector size=512 - WDC PC SN720 SDAQNTW-512G-1001, S/N:184943802506
+
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB - WDC PC SN720 SDAQNTW-512G-1001
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=1000215215 (expected 1000215215)
+hdr_lba_start=34
+hdr_lba_end=1000215182
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+4f68bce3 e8cd 4db1 96 e7 fb ca f9 84 b7 09
+ 1 P EFI System                  2048    2099199    2097152
+4f68bce3 e8cd 4db1 96 e7 fb ca f9 84 b7 09
+ 2 P Unknown                  2099200 1000213167  998113968
+4f68bce3 e8cd 4db1 96 e7 fb ca f9 84 b7 09
+4f68bce3 e8cd 4db1 96 e7 fb ca f9 84 b7 09
+SIGINT detected! PhotoRec has been killed.
+4f68bce3 e8cd 4db1 96 e7 fb ca f9 84 b7 09
+
+TestDisk exited normally.
